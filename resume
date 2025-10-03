@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Resume</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            max-width: 800px;
+            margin: auto;
+            background: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #0056b3;
+        }
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        section {
+            margin-bottom: 20px;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .contact-info p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Your Name</h1>
+        <div class="contact-info">
+            <p>Email: your.email@example.com</p>
+            <p>Phone: (123) 456-7890</p>
+            <p>LinkedIn: linkedin.com/in/yourprofile</p>
+        </div>
+
+        <section id="summary">
+            <h2>Summary</h2>
+            <p>A concise summary highlighting your key skills, experience, and career goals. Tailor this to the specific job you are applying for.</p>
+        </section>
+
+        <section id="experience">
+            <h2>Experience</h2>
+            <h3>Job Title - Company Name</h3>
+            <p><em>Month Year – Month Year</em></p>
+            <ul>
+                <li>Key responsibility 1 and its impact or achievement.</li>
+                <li>Key responsibility 2 and its impact or achievement.</li>
+                <li>Key responsibility 3 and its impact or achievement.</li>
+            </ul>
+            <h3>Another Job Title - Another Company</h3>
+            <p><em>Month Year – Month Year</em></p>
+            <ul>
+                <li>Key responsibility 1.</li>
+                <li>Key responsibility 2.</li>
+            </ul>
+        </section>
+
+        <section id="achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Successfully led a project that resulted in a 15% increase in efficiency and a 10% reduction in costs.</li>
+                <li>Received "Employee of the Year" award for outstanding performance and contributions in 2023.</li>
+                <li>Developed and implemented a new training program that improved team productivity by 20%.</li>
+                <li>Published research paper in a peer-reviewed journal, contributing to the field of [mention field].</li>
+            </ul>
+        </section>
+
+        <section id="education">
+            <h2>Education</h2>
+            <h3>Degree Name - University Name</h3>
+            <p><em>Year of Graduation</em></p>
+            <p>Relevant coursework or honors, if applicable.</p>
+        </section>
+
+        <section id="skills">
+            <h2>Skills</h2>
+            <p><strong>Technical Skills:</strong> HTML, CSS, JavaScript, Python, SQL, [Other relevant technologies]</p>
+            <p><strong>Soft Skills:</strong> Communication, Teamwork, Problem-solving, Leadership, Adaptability</p>
+        </section>
+    </div>
+</body>
+</html>
